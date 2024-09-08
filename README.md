@@ -19,7 +19,7 @@ This project includes a Python script that captures network packets in real-time
 
 - Npcap (for Windows users): Install Npcap from Npcap's official website and enable WinPcap compatibility mode.
 
-- Example
+Example
 Running the Packet Sniffer:
 
 bash
@@ -32,9 +32,9 @@ python packet_sniffer.py
 TCP Packet >> Src: 192.168.1.10, Dst: 192.168.1.1, Src Port: 56789, Dst Port: 80
 UDP Packet >> Src: 192.168.1.12, Dst: 192.168.1.1, Src Port: 1234, Dst Port: 53
 
-- Notes
+Notes
 Admin Privileges: On Windows, run the script as Administrator. On Linux/macOS, use sudo if needed.
 Log File: The captured packets are logged in a file called packets.log in the same directory as the script.
 
-- Disclaimer
+Disclaimer
 This tool is intended for educational purposes and ethical use only. Ensure you have permission to monitor network traffic in your environment.
