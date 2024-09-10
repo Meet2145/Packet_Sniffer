@@ -24,16 +24,14 @@ Running the Script:
 bash
 Copy code
 python packet_sniffer.py
-# Output: Starting packet sniffing on interface eth0...
+
+## Output: Starting packet sniffing on interface eth0...
+
 Captured Packet Example:
 
-bash
-Copy code
 TCP Packet >> Src: 192.168.1.10, Dst: 192.168.1.1, Src Port: 56789, Dst Port: 80
 UDP Packet >> Src: 192.168.1.12, Dst: 192.168.1.1, Src Port: 1234, Dst Port: 53
-Notes
-Admin Privileges: On Windows, you must run the script as Administrator. On Linux/macOS, use sudo if necessary.
-Log File: All captured packets are saved in packets.log in the script directory.
-Disclaimer
+
+## Disclaimer
 This tool is intended for educational purposes and ethical use only. Ensure that you have the necessary permissions to monitor network traffic in your environment.
 
