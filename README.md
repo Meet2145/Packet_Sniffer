@@ -29,8 +29,8 @@ python packet_sniffer.py
 
 Captured Packet Example:
 
-TCP Packet >> Src: 192.168.1.10, Dst: 192.168.1.1, Src Port: 56789, Dst Port: 80
-UDP Packet >> Src: 192.168.1.12, Dst: 192.168.1.1, Src Port: 1234, Dst Port: 53
+-TCP Packet >> Src: 192.168.1.10, Dst: 192.168.1.1, Src Port: 56789, Dst Port: 80
+-UDP Packet >> Src: 192.168.1.12, Dst: 192.168.1.1, Src Port: 1234, Dst Port: 53
 
 ## Disclaimer
 This tool is intended for educational purposes and ethical use only. Ensure that you have the necessary permissions to monitor network traffic in your environment.
